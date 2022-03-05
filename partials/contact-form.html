@@ -1,0 +1,87 @@
+<section class=" bg-color-grey">
+    <div class="container ">
+        <div class="row py-4">
+
+            <div class="col-lg-5  py-5 justify-content-center">
+
+                <div class="appear-animation animated fadeIn appear-animation-visible text-center"
+                    data-appear-animation="fadeIn" data-appear-animation-delay="800"
+                    style="animation-delay: 800ms;">
+                    <img class="" alt="PGY" width="200" height="200"		src="img/pyg/logo/PGY Logo-08.png">
+                    <h4 class="mt-2   "><strong>PGY SOLUTIONS SDN.BHD.</strong></h4>
+                    <i class="fas fa-map-marker-alt top-6 text-primary fs-4"></i>
+                    <div class="mb-2"><strong class="text-dark text-4 ">No. 89 A, Lorong 1/ss1. Bandar Tasek Mutiara.
+                        14120 Simpang Ampat, Penang.</strong></div>
+                    <div class="mb-2"><i class="fas fa-phone top-6 text-primary "  style="padding-right: 0.5rem;"></i> <strong class="text-dark text-4">+6012 - 413 1939</strong></div>
+                    <div class="mb-2"><i class="fas fa-envelope top-6 text-primary"  style="padding-right: 0.5rem;"></i> <strong class="text-dark text-4"><a class="text-dark" href="mailto:pgysales96@gmail.com">pgysales96@gmail.com</a></strong>
+                        </div>	
+                </div>
+
+            </div>
+            <div class="col-lg-1 my-auto mx-auto desktop-only">
+                <div class="divider-right-border  border-dark  mr-5" style="    padding-top: 5rem!important;padding-bottom: 5rem !important; margin-right: 2.5rem;"></div>
+            </div>
+            <div class="col-lg-6  py-5">
+                <div class="   ml-5">
+                    <div class="divider  divider-primary divider-small   " style="display: inline-block;margin-right: 10px;">
+                        <hr  style="margin-bottom: 9px;">
+                    </div>
+                    <h4 class=" pl-5 mb-4font-weight-bold text-6 d-inline text-primary">CONTACT US</h4>
+                    <h4 class=" pl-5 mt-4 font-weight-bold text-8 ">Send a request</h4>
+
+                    <form class="contact-form" action="php/contact-form.php" method="POST"
+                        novalidate="novalidate">
+                        <div class="contact-form-success alert alert-success d-none mt-4">
+                            <strong>Success!</strong> Your message has been sent to us.
+                        </div>
+
+                        <div class="contact-form-error alert alert-danger d-none mt-4">
+                            <strong>Error!</strong> There was an error sending your message.
+                            <span class="mail-error-message text-1 d-block"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <label class="form-label mb-1 text-2">Full Name</label>
+                                <input type="text" value="" data-msg-required="Please enter your name."
+                                    maxlength="100" class="form-control text-3 h-auto py-2" name="name"
+                                    required="">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label class="form-label mb-1 text-2">Email Address</label>
+                                <input type="email" value=""
+                                    data-msg-required="Please enter your email address."
+                                    data-msg-email="Please enter a valid email address." maxlength="100"
+                                    class="form-control text-3 h-auto py-2" name="email" required="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col">
+                                <label class="form-label mb-1 text-2">Subject</label>
+                                <input type="text" value="" data-msg-required="Please enter the subject."
+                                    maxlength="100" class="form-control text-3 h-auto py-2" name="subject"
+                                    required="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col">
+                                <label class="form-label mb-1 text-2">Message</label>
+                                <textarea maxlength="5000" data-msg-required="Please enter your message."
+                                    rows="3" class="form-control text-3 h-auto py-2" name="message"
+                                    required=""></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col">
+                                <input type="submit" value="Send Message"
+                                    class="btn btn-primary btn-modern float-end"
+                                    data-loading-text="Loading...">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

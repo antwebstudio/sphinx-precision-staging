@@ -1,0 +1,58 @@
+
+/* Extra small devices (phones, 576px and down) */
+
+@media only screen and (max-width: 576px) {
+    .mobile-only {
+        visibility: visible ;
+    }
+    .desktop-only {
+        visibility: hidden !important;
+        display: none !important;
+        clear: both !important;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .mobile-only {
+        visibility: visible !important;
+    }
+    .desktop-only {
+        visibility: hidden !important;
+        display: none !important;
+        clear: both !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .mobile-only {
+        visibility: hidden !important;
+        display: none !important;
+        clear: both !important;
+    }
+    .desktop-only {
+        visibility: visible !important;
+    }
+    
+}
+
+/* PYG Search */
+.pyg-search .form-control {
+	/* border-radius: 1.3rem 0 0 1.3rem; */
+	border-color: #4267B2;
+	border-right: 0;
+}
+
+.btn-pyg-search-button{
+	border-color: #4267B2;
+    color: #FFF;
+    background: #4267B2;
+}
+
+.centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
