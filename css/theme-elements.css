@@ -5052,7 +5052,7 @@ hr.invisible {
 }
 
 .divider.divider-small hr {
-	width: 50px;
+	width: 24px;
 	height: 3px;
 	background: #555;
 }
