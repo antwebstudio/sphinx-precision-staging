@@ -42,11 +42,11 @@
 .sphinx-precison-search .form-control {
 	/* border-radius: 1.3rem 0 0 1.3rem; */
 	/* border-color: #4267B2; */
-	border-right: 0;
+	/* border-right: 0; */
 }
 
 .btn-sphinx-precison-search-button{
-	border-color: grey;
+	border-color: rgba(0, 0, 0, 0.09);;
     /* color: #4267B2 ; */
     /* background: #4267B2; */
 }
@@ -55,4 +55,10 @@
     float: none;
     margin-left: auto;
     margin-right: auto;
+}
+.bg-green{
+    background-color: #238034;
+}
+.text-green{
+    color: #238034;
 }
