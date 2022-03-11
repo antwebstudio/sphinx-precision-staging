@@ -93,9 +93,9 @@
 .timeline-article .content-date {
   position: absolute;
   top: 20%;
-  left: 50%;
+  right: 50%;
   font-size: 18px;
-  margin-left: -200px;
+  margin-right: 50px;
   transform: translateY(50%);
 }
 .timeline-article .meta-date {
@@ -151,6 +151,7 @@
   margin-left: 0px;
 }
 .content-left-container .content-date {
+  left: 50%;
   margin-left: 50px;
 }
 .content-right-container .content-box:before {
