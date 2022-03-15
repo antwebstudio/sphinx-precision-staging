@@ -327,7 +327,7 @@ body {
 
 .custom-testimonial-style-1.testimonial-with-quotes blockquote:before {
 	content: "\f10e";
-	font-family: "Font Awesome 5 Free";
+	font-family: "Font Awesome 5 Pro";
 	font-weight: 900;
 	font-size: 20px;
 }
@@ -475,13 +475,13 @@ body {
 
 .datepicker table thead tr th.prev {
 	content: '\f0d9';
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 5 Pro';
 	font-weight: 900;
 }
 
 .datepicker table thead tr th.next {
 	content: '\f0da';
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 5 Pro';
 	font-weight: 900;
 }
 

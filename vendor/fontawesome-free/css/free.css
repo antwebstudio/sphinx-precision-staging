@@ -6106,7 +6106,7 @@ readers do not read off random characters that represent icons */
 }
 
 @font-face {
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 5 Pro';
   font-style: normal;
   font-weight: 400;
   font-display: block;
@@ -6124,12 +6124,12 @@ readers do not read off random characters that represent icons */
 }
 
 .far {
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 5 Pro';
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 5 Pro';
   font-style: normal;
   font-weight: 900;
   font-display: block;
@@ -6148,6 +6148,6 @@ readers do not read off random characters that represent icons */
 
 .fa,
 .fas {
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
 }

@@ -387,7 +387,7 @@ body {
 				@include if-rtl() {
 					content: "\f10e";
 				}
-				font-family: "Font Awesome 5 Free";
+				font-family: "Font Awesome 5 Pro";
 				font-weight: 900;
 				font-size: 20px;
 			}
@@ -549,13 +549,13 @@ body {
 
 					&.prev {
 						content: '\f0d9';
-						font-family: 'Font Awesome 5 Free';
+						font-family: 'Font Awesome 5 Pro';
 						font-weight: 900;
 					}
 
 					&.next {
 						content: '\f0da';
-						font-family: 'Font Awesome 5 Free';
+						font-family: 'Font Awesome 5 Pro';
 						font-weight: 900;
 					}
 

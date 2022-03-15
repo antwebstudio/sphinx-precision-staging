@@ -215,7 +215,7 @@
 			#{$left}: -30px !important;
 			border-radius: corner-values(0 4px 4px 0);
 			&:before {
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Font Awesome 5 Pro';
 				font-weight: 900;
 				content: "\f053";
 				@include if-rtl {
@@ -231,7 +231,7 @@
 			#{$left}: auto !important;
 			border-radius: corner-values(4px 0 0 4px);
 			&:before {
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Font Awesome 5 Pro';
 				font-weight: 900;
 				content: "\f054";
 				@include if-rtl {

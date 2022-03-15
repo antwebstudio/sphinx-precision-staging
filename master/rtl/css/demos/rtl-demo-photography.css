@@ -264,7 +264,7 @@ html.sticky-header-active #header .header-body {
 
 	#header .header-nav-main nav > ul > li.dropdown .dropdown-menu li.dropdown-submenu > a:after {
 		content: "\f104";
-		font-family: 'Font Awesome 5 Free';
+		font-family: 'Font Awesome 5 Pro';
 		font-weight: 900;
 		border: none;
 		margin: 0;
