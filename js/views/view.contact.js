@@ -84,8 +84,8 @@ Theme Version:	9.2.0
 				}).always(function(data, textStatus, jqXHR) {
 
 					$errorMessage.empty().hide();
-
-					if (data.response == 'success') {
+					
+					if (data == 'OK' || data.response == 'success') {
 
 						// Uncomment the code below to redirect for a thank you page
 						// self.location = 'thank-you.html';
@@ -114,7 +114,12 @@ Theme Version:	9.2.0
 						$submitButton.val( submitButtonText ).attr('disabled', false);
 						
 						return;
-
+					} else if (data.responseJSON.errors) {
+						var errors = data.responseJSON.errors
+						$errorMessage.show();	
+						Object.keys(errors).forEach(key => {
+							$errorMessage.append('<div>' + errors[key] + '</div>');
+						})
 					} else if (data.response == 'error' && typeof data.errorMessage !== 'undefined') {
 						$errorMessage.html(data.errorMessage).show();
 					} else {
